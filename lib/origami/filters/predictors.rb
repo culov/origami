@@ -47,7 +47,7 @@ module Origami
 
             def self.included(receiver)
                 raise TypeError, "Predictors only applies to Filters" unless receiver.include?(Filter)
-            end
+    end
 
             #
             # Create a new predictive Filter.
